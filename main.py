@@ -4,6 +4,8 @@ except:
   import os
   os.system("pip install requests")
   
+import requests, json, threading, random, signal, sys, os, platform
+  
 def hand_signal(signal, frame):
   print("\033[1;33mBye")
   sys.exit()
