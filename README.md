@@ -7,3 +7,10 @@ Programa escrito en python que manda reportes a una cuenta de la aplicación "Ti
 Se recomienda el uso de una *VPN* ya que puede que los servidores de TikTok baneen tu ip y el programa deje de funcionar como aquí
 ![](./img/img.png)
 # Instalación
+```sh
+git clone https://github.com/iixn/report-tiktok-account.git
+
+cd report-tiktok-account
+
+python main.py
+```
