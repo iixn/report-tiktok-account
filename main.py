@@ -1,5 +1,9 @@
-import requests, json, threading, random, signal, sys
-
+try:
+  import requests, json, threading, random, signal, sys
+except:
+  import os
+  os.system("pip install requests")
+  
 def hand_signal(signal, frame):
   print("\033[1;33mBye")
   sys.exit()
