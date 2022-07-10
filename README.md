@@ -2,4 +2,4 @@
 Programa escrito en python que manda reportes a una cuenta de la aplicación "TikTok"
 
 # Imágenes
-![](./img/img.png)
+![](./img/img2.png)
