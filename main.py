@@ -1,5 +1,5 @@
 try:
-  import requests, json, threading, random, signal, sys, os
+  import requests, json, threading, random, signal, sys, os, platform
 except:
   import os
   os.system("pip install requests")
@@ -10,11 +10,14 @@ def hand_signal(signal, frame):
 
 signal.signal(signal.SIGINT, hand_signal)
 
-try:
-  os.system("cls")
-except:
-  os.system("clear")
+def clearTerm():
+    if platform.system() == "Windows":
+        os.system("cls")
+    elif platform.system() == "Linux":
+        os.system("clear")
 
+clearTerm()
+        
 username = input('\033[1;34m [ ? ] Username: ')
 threads = int(input('\033[1;34m [ ? ] Threads: '))
 countReport = 0
