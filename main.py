@@ -10,6 +10,11 @@ def hand_signal(signal, frame):
 
 signal.signal(signal.SIGINT, hand_signal)
 
+try:
+  os.system("cls")
+except:
+  os.system("clear")
+
 username = input('\033[1;34m [ ? ] Username: ')
 threads = int(input('\033[1;34m [ ? ] Threads: '))
 countReport = 0
