@@ -1,5 +1,5 @@
 try:
-  import requests, json, threading, random, signal, sys
+  import requests, json, threading, random, signal, sys, os
 except:
   import os
   os.system("pip install requests")
