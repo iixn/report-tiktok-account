@@ -8,9 +8,9 @@ Se recomienda el uso de una *VPN* ya que puede que los servidores de TikTok bane
 ![](./img/img.png)
 # Instalación
 ```sh
-git clone https://github.com/iixn/report-tiktok-account.git
+git clone https://github.com/iixn/report-tiktok-r1.rak.r1.git
 
-cd report-tiktok-account
+cd report-tiktok-r1.rak.r1
 
 python main.py
 ```
